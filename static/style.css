@@ -1,10 +1,10 @@
-body{
-    background-image: url("ariart.jpg");
-}
 
-p{
-    color:red;
-    
-    
+.header {
+    overflow: hidden;
+    background-color: #f1f1f171;
+    padding: 20px 10px;
+  }
 
+#bioB{
+ background-color: tomato;
 }
