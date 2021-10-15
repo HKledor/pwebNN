@@ -6,12 +6,9 @@ app = Flask(__name__);
 #@app.route("/")
 #def index():
 #    return "<p>Index Page</p>";
-@app.route("/hello")
+@app.route("/contact")
 def hello_world():
-    return "<p>Hello World</p>";
-@app.route("/<name>")
-def hello(name):
-    return f"<p>Hello, {escape(name)}</p>";
+    return "<p>Contact Me @ Kledor00@gmail.com</p>";
 @app.route("/")
 def index():
     return render_template('home.html');

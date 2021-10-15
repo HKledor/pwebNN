@@ -1,10 +1,16 @@
 
-.header {
-    overflow: hidden;
-    background-color: #f1f1f171;
-    padding: 20px 10px;
-  }
-
 #bioB{
- background-color: tomato;
+ background-color: rgb(11,63,77);
 }
+
+#conB{
+    background-color: rgb(11,63,77);
+   }
+   
+#projB{
+    background-color: rgb(11,63,77);
+   }
+   
+#homeB{
+    background-color: rgb(11,63,77);
+   }
