@@ -14,7 +14,7 @@ def index():
     return render_template('home.html');
 @app.route("/bio")
 def bio():
-    return "<p>BIO</p>";
+    return render_template('bio.html');
 @app.route("/projects")
 def projects():
     return "<p>PROJECTS</p>";
